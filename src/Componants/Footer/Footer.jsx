@@ -17,7 +17,7 @@ const Footer = () => {
                 <div className="footertop">
                     <div className="footerlogo">
                         <img src={Logo} alt="Demo Project Logo" />
-                        <p>Short Tagline We offer comprehensive intelligent <br /> solutions in a variety of areas in both continuous</p>
+                        <p>Short Tagline We offer comprehensive <br /> intelligent  solutions in br a variety of <br /> areas in  both continuous</p>
                     </div>
                     <div className="footerlinks">
                         <h4>Company</h4>
@@ -39,21 +39,21 @@ const Footer = () => {
                     </div>
                     <div className="footercontact">
                         <h4>Get in Touch</h4>
-                        <p><img src={call} alt="Call" /> +61 424 670 940</p>
+                        <p><img src={call} alt="Call" /> +91 1234567890</p>
                         <p><img src={Email} alt="Email" /> info@loremipsum.com.au</p>
-                        <p><img src={Loc} alt="Location" /> Office 261 South Street, Cleveland, Queensland, Australia</p>
+                        <p><img src={Loc} alt="Location" /> Vadodara, Gujarat, India</p>
 
                     </div>
                     <div className="contact">
 
                         <button type="button">Contact Us</button>
-                    <div className="socialicons">
+                        <div className="socialicons">
 
-                        <img src={Fb} alt="Facebook" />
-                        <img src={Linkedin} alt="LinkedIn" />
-                        <img src={Twitter} alt="Twitter" />
-                        <img src={Youtube} alt="YouTube" />
-                    </div>
+                            <img src={Fb} alt="Facebook" />
+                            <img src={Linkedin} alt="LinkedIn" />
+                            <img src={Twitter} alt="Twitter" />
+                            <img src={Youtube} alt="YouTube" />
+                        </div>
                     </div>
 
                 </div>
