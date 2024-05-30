@@ -46,10 +46,21 @@
                 padding: 10px 20px;
                 transition: background-color 0.3s, color 0.3s;
 
-                &.active,
-                &:hover {
-                    color: #000000;
-                }
+                // &.active,
+                &::after {
+                    content: '';
+                    width: 0%;
+                    height: 2px;
+                    margin: 8px auto;
+                    background: #15be29;
+                    display: block;
+                    transition: 0.5s;
+                  }
+            
+                  &:hover::after{
+                    width: 100%;
+                    
+                  }
             }
         }
 
