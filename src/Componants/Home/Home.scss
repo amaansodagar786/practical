@@ -191,8 +191,12 @@
                 .news-box {
                     width: calc(50% - 20px);
 
-
-                    
+                    .box-content {
+                        transform: translateY(0);
+                        opacity: 1;
+                        position: relative;
+                        bottom: auto;
+                    }
                 }
             }
         }
