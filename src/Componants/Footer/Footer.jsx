@@ -42,13 +42,20 @@ const Footer = () => {
                         <p><img src={call} alt="Call" /> +61 424 670 940</p>
                         <p><img src={Email} alt="Email" /> info@loremipsum.com.au</p>
                         <p><img src={Loc} alt="Location" /> Office 261 South Street, Cleveland, Queensland, Australia</p>
-                        <div className="socialicons">
-                            <img src={Fb} alt="Facebook" />
-                            <img src={Linkedin} alt="LinkedIn" />
-                            <img src={Twitter} alt="Twitter" />
-                            <img src={Youtube} alt="YouTube" />
-                        </div>
+
                     </div>
+                    <div className="contact">
+
+                        <button type="button">Contact Us</button>
+                    <div className="socialicons">
+
+                        <img src={Fb} alt="Facebook" />
+                        <img src={Linkedin} alt="LinkedIn" />
+                        <img src={Twitter} alt="Twitter" />
+                        <img src={Youtube} alt="YouTube" />
+                    </div>
+                    </div>
+
                 </div>
 
             </div>

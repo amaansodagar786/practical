@@ -10,7 +10,8 @@ const Home = () => {
     return (
         <>
             <div className='Homenews'>
-                <p>News</p>
+              
+                <div className='overlay'>News</div>
             </div>
             <div className="maindiv">
                 <div className='news-sections'>

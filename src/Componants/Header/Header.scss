@@ -25,6 +25,7 @@
         margin: 0;
 
         li {
+          position: relative;
           margin-left: 20px;
 
           a {
@@ -35,6 +36,37 @@
             &:hover {
               background-color: #36853ecd;
             }
+          }
+
+          .dropdown {
+            display: none;
+            position: absolute;
+            top: 100%;
+            left: 0;
+            background-color: white;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            list-style: none;
+            padding: 0;
+            margin: 0;
+
+            li {
+              margin: 0;
+
+              a {
+                padding: 10px 15px;
+                display: block;
+                width: 69%;
+                white-space: nowrap;
+
+                &:hover {
+                  background-color: #f4f4f4;
+                }
+              }
+            }
+          }
+
+         .dropdown {
+            display: block;
           }
         }
 
@@ -52,13 +84,6 @@
   }
 
   @media (max-width: 500px) {
-
-    .mainnav {
-      background-color: white;
-      position: sticky;
-      top: 0;
-      z-index: 1000;
-    }
     .mainheader {
       .navlinks {
         ul {
@@ -79,6 +104,17 @@
               width: 100%;
               text-align: center;
               padding: 15px 0;
+            }
+
+            .dropdown {
+              position: static;
+              box-shadow: none;
+
+              li {
+                a {
+                  padding: 10px 20px;
+                }
+              }
             }
           }
         }
