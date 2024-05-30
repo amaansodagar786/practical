@@ -140,16 +140,18 @@
         width: 100%;
 
         .news-sections {
-            padding: 10px;
+            // padding: 10px;
 
             .tabs {
                 flex-direction: row;
                 justify-content: left;
                 gap: 3px;
 
+                
                 button {
-                    font-size: 10px;
-                    padding: 7px 8px;
+                    border: 1px solid black;
+                    font-size: 5px;
+                    padding: 1px 1px;
                 }
             }
 
@@ -193,7 +195,7 @@
 
             .tabs {
                 button {
-                    font-size: 14px;
+                    font-size: 10px;
                     padding: 8px 16px;
                 }
             }
