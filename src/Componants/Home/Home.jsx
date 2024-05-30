@@ -1,7 +1,7 @@
 import React from 'react';
 import './Home.scss';
 import project1 from "../../Assets/ReactJs_Practical_assets/Mask Group-1.png";
-import project2 from "../../Assets/ReactJs_Practical_assets/Mask Group-1.png";
+import project2 from "../../Assets/ReactJs_Practical_assets/Mask Group-3.png";
 import project3 from "../../Assets/ReactJs_Practical_assets/Mask Group-2.png";
 import project4 from "../../Assets/ReactJs_Practical_assets/Mask Group-4.png";
 import project5 from "../../Assets/ReactJs_Practical_assets/Mask Group.png";

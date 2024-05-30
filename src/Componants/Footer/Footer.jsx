@@ -53,7 +53,7 @@ const Footer = () => {
 
             </div>
             <div className="footerbottom">
-                <p>© 2021 Lorem Ipsum. All rights reserved.</p>
+                <p>© 2021 Amaan Sodagar. All rights reserved.</p>
             </div>
         </footer>
     );
