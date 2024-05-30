@@ -9,13 +9,17 @@ import project5 from "../../Assets/ReactJs_Practical_assets/Mask Group.png";
 const Home = () => {
     const [activeTab, setActiveTab] = useState('Mining');
 
+
+    const alertfunc = () => {
+        alert("YOU CLICKED ARTICLE")
+    }
     const renderNewsBoxes = () => {
         switch (activeTab) {
             case 'Mining':
             case 'Infrastructure':
                 return (
                     <>
-                        <div className='news-box'>
+                        <div className='news-box'  onClick={alertfunc}>
                             <img src={project5} alt='Project' />
                             <div className='box-content'>
                                 <div className="leftborder">
@@ -26,7 +30,7 @@ const Home = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className='news-box'>
+                        <div className='news-box' onClick={alertfunc}>
                             <img src={project4} alt='Project' />
                             <div className='box-content'>
                                 <div className="leftborder">
@@ -35,7 +39,7 @@ const Home = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className='news-box'>
+                        <div className='news-box' onClick={alertfunc}>
                             <img src={project1} alt='Project' />
                             <div className='box-content'>
                                 <div className="leftborder">
@@ -44,7 +48,7 @@ const Home = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className='news-box'>
+                        <div className='news-box' onClick={alertfunc}>
                             <img src={project2} alt='Project' />
                             <div className='box-content'>
                                 <div className="leftborder">
@@ -53,7 +57,7 @@ const Home = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className='news-box'>
+                        <div className='news-box'onClick={alertfunc}>
                             <img src={project3} alt='Project' />
                             <div className='box-content'>
                                 <div className="leftborder">
@@ -62,7 +66,7 @@ const Home = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className='news-box'>
+                        <div className='news-box' onClick={alertfunc}>
                             <img src={project4} alt='Project' />
                             <div className='box-content'>
                                 <div className="leftborder">
@@ -78,7 +82,7 @@ const Home = () => {
             case 'Manufacturing':
                 return (
                     <>
-                        <div className='news-box'>
+                        <div className='news-box' onClick={alertfunc}>
                             <img src={project1} alt='Project' />
                             <div className='box-content'>
                                 <div className="leftborder">
@@ -87,7 +91,7 @@ const Home = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className='news-box'>
+                        <div className='news-box' onClick={alertfunc}>
                             <img src={project2} alt='Project' />
                             <div className='box-content'>
                                 <div className="leftborder">
@@ -96,7 +100,7 @@ const Home = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className='news-box'>
+                        <div className='news-box' onClick={alertfunc}>
                             <img src={project5} alt='Project' />
                             <div className='box-content'>
                                 <div className="leftborder">
@@ -107,7 +111,7 @@ const Home = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className='news-box'>
+                        <div className='news-box' onClick={alertfunc}>
                             <img src={project3} alt='Project' />
                             <div className='box-content'>
                                 <div className="leftborder">
@@ -116,7 +120,7 @@ const Home = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className='news-box'>
+                        <div className='news-box' onClick={alertfunc}>
                             <img src={project4} alt='Project' />
                             <div className='box-content'>
                                 <div className="leftborder">
@@ -125,7 +129,7 @@ const Home = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className='news-box'>
+                        <div className='news-box' onClick={alertfunc}>
                             <img src={project1} alt='Project' />
                             <div className='box-content'>
                                 <div className="leftborder">
@@ -139,7 +143,7 @@ const Home = () => {
             case 'Water & Waste Water':
                 return (
                     <>
-                        <div className='news-box'>
+                        <div className='news-box' onClick={alertfunc}>
                             <img src={project3} alt='Project' />
                             <div className='box-content'>
                                 <div className="leftborder">
@@ -148,7 +152,7 @@ const Home = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className='news-box'>
+                        <div className='news-box' onClick={alertfunc}>
                             <img src={project4} alt='Project' />
                             <div className='box-content'>
                                 <div className="leftborder">
@@ -157,7 +161,7 @@ const Home = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className='news-box'>
+                        <div className='news-box' onClick={alertfunc}>
                             <img src={project5} alt='Project' />
                             <div className='box-content'>
                                 <div className="leftborder">
@@ -168,7 +172,7 @@ const Home = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className='news-box'>
+                        <div className='news-box' onClick={alertfunc}>
                             <img src={project1} alt='Project' />
                             <div className='box-content'>
                                 <div className="leftborder">
@@ -177,7 +181,7 @@ const Home = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className='news-box'>
+                        <div className='news-box' onClick={alertfunc}>
                             <img src={project2} alt='Project' />
                             <div className='box-content'>
                                 <div className="leftborder">
@@ -186,7 +190,7 @@ const Home = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className='news-box'>
+                        <div className='news-box' onClick={alertfunc}>
                             <img src={project3} alt='Project' />
                             <div className='box-content'>
                                 <div className="leftborder">
