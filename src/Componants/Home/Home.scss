@@ -1,0 +1,96 @@
+.Homenews {
+    background: rgba(29, 97, 29, 0.716) url('../../Assets/ReactJs_Practical_assets/Mask Group.png') no-repeat center center;
+    background-size: cover;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 24px;
+    text-align: center;
+}
+
+.maindiv {
+    width: 85%;
+    margin: 10px auto;
+
+    .news-sections {
+        padding: 20px;
+
+        .tabs {
+            display: flex;
+            justify-content: space-around;
+            margin-bottom: 20px;
+
+            button {
+                background-color: transparent;
+                border: none;
+                color: gray;
+                font-size: 16px;
+                cursor: pointer;
+                padding: 10px 20px;
+                transition: background-color 0.3s, color 0.3s;
+
+                &.active,
+                &:hover {
+                    color: #000000;
+                }
+            }
+        }
+
+        .news-boxes {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: space-between;
+
+            .news-box {
+                background-color: white;
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+                border-radius: 5px;
+                overflow: hidden;
+                width: calc(33.333% - 20px);
+                display: flex;
+                flex-direction: column;
+
+                img {
+                    width: 100%;
+                    height: auto;
+                }
+
+                .box-content {
+                    padding: 10px;
+                    margin-left: 10px;
+
+                    .leftborder
+                    {
+                        position: relative;
+                        border-left: 4px solid #1d611d;
+                        padding-left: 15px;
+                    }
+
+                    h3 {
+                        font-size: 18px;
+                        margin-bottom: 10px;
+                    }
+
+                    p {
+                        color: gray;
+                        font-size: 14px;
+                        margin-bottom: 10px;
+                    }
+
+                    a {
+                        color: #1d611d;
+                        text-decoration: none;
+                        font-weight: bold;
+
+                        &:hover {
+                            text-decoration: underline;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
