@@ -37,8 +37,8 @@
         align-items: center;
         
         img {
-          width: 20px; 
-          height: 20px;
+          width: 15px; 
+          height: 15px;
         }
       }
     }
@@ -46,29 +46,26 @@
 
   @media (max-width: 500px) {
     .head {
-      padding: 0 10px; /* Reduce padding for smaller screens */
-      gap: 10px; /* Add gap between contact-info and social */
+      padding: 0 10px; 
+      gap: 10px; 
 
       .contact-info {
-        gap: 10px; /* Reduce gap between contact items */
+        gap: 10px;
         
         span {
-          font-size: 10px; /* Adjust font size for smaller screens */
-          
-          img {
-            width: 15px; /* Reduce icon size */
+          font-size: 10px; 
+            width: 15px; 
             height: 15px;
-            margin-right: 3px; /* Reduce space between icon and text */
-          }
+            margin-right: 3px;
         }
       }
 
       .social {
-        gap: 5px; /* Reduce gap between social icons */
+        gap: 5px; 
 
         img {
-          width: 15px; /* Adjust icon size */
-          height: 15px;
+          width: 10px; 
+          height: 10px;
         }
       }
     }
