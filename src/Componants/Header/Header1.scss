@@ -1,43 +1,42 @@
-.Header
-{
-    background-color: rgb(40, 36, 36);
+.Header {
+  background-color: rgb(40, 36, 36);
 
-.head {
+  .head {
     margin: 0 auto;
     width: 80%;
-    
-    height: 40px; 
+
+    height: 40px;
     display: flex;
-    justify-content: space-between; 
-    padding: 0 20px; 
-  
+    justify-content: space-between;
+    padding: 0 20px;
+
     .contact-info {
       display: flex;
       gap: 20px;
-  
+
       span {
         color: aliceblue;
         font-size: 12px;
         display: flex;
-        align-items: center; 
-        
+        align-items: center;
+
         img {
-          margin-right: 5px; 
+          margin-right: 5px;
         }
       }
     }
-  
+
     .social {
       display: flex;
       align-items: center;
       gap: 10px;
-  
+
       span {
         display: flex;
         align-items: center;
-        
+
         img {
-          width: 15px; 
+          width: 15px;
           height: 15px;
 
           &:hover {
@@ -50,34 +49,32 @@
 
   @media (max-width: 500px) {
     .head {
-      padding: 0 10px; 
-      gap: 10px; 
+      padding: 0 10px;
+      gap: 10px;
 
       .contact-info {
         flex-direction: row;
         gap: 5px;
-        
-        span {
-            font-size: 8px; 
-            margin-right: 3px;
 
-            img
-            {
-              width: 10px; 
-          height: 10px;
-            }
+        span {
+          font-size: 8px;
+          margin-right: 3px;
+
+          img {
+            width: 10px;
+            height: 10px;
+          }
         }
       }
 
       .social {
-        gap: 8px; 
+        gap: 10px;
 
         img {
-          width: 8px; 
+          width: 8px;
           height: 8px;
         }
       }
     }
   }
 }
- 
