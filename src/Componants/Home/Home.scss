@@ -140,14 +140,15 @@
 
 @media (max-width: 600px) {
     .maindiv {
-        width: 95%;
+        width: 100%;
 
         .news-sections {
             padding: 10px;
 
             .tabs {
                 flex-direction: row;
-                align-items: center;
+                // align-items: center;
+                justify-content: left;
                 gap: 3px;
 
                 button {
